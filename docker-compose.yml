@@ -34,7 +34,7 @@ services:
     nginx:
         image: nginx:alpine
         container_name: laravel_nginx
-        restart: unless_stopped
+        restart: unless-stopped
         ports:
             - "80:80"
 
